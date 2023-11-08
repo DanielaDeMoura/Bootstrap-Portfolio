@@ -36,12 +36,36 @@
     transform: scale(1.1);
 }
 
+
+/* Navbar link hover effect */
+.navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+
 /* hero image styling */
 .hero-img {
     filter: brightness(80%);
 }
 
+/*here assets inside the jumbotron*/
 #hero_name,
 #hero_p {
     color: rgba(220, 220, 220, 0.763);
+}
+
+/* Link color and hover effect */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(240, 136, 99);
+    text-decoration: underline;
+}
+
+button:hover {
+    box-shadow: 0 0 10px rgba(202, 98, 98, 0.895);
+    transition: box-shadow 0.4s ease; 
 }
