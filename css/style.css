@@ -67,5 +67,5 @@ a:hover {
 
 button:hover {
     box-shadow: 0 0 10px rgba(202, 98, 98, 0.895);
-    transition: box-shadow 0.4s ease; 
+    transition: box-shadow 0.4s ease;
 }
